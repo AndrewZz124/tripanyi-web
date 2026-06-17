@@ -1,0 +1,92 @@
+export default function Footer() {
+  const scrollTo = (id: string) => {
+    const el = document.getElementById(id);
+    if (el) el.scrollIntoView({ behavior: "smooth" });
+  };
+
+  return (
+    <footer className="bg-[#242422] pt-20 pb-10 px-6 lg:px-8">
+      <div className="max-w-[1200px] mx-auto">
+        {/* Top Row */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
+          {/* Logo + Description */}
+          <div>
+            <span className="font-['DM_Serif_Display'] text-[18px] tracking-[0.1em] text-[#f3f0ea] uppercase">
+              TRIPANYI
+            </span>
+            <p className="font-['Inter'] text-[13px] text-[#969188] leading-[1.6] mt-4">
+              Redefining bespoke global mobility and luxury lifestyle concierge
+              at the intersection of human insight and predictive quantitative
+              analysis.
+            </p>
+          </div>
+
+          {/* Navigation Links */}
+          <div>
+            <h4 className="font-['Inter'] text-[11px] uppercase tracking-[0.1em] text-[#f3f0ea] mb-4">
+              Explore
+            </h4>
+            <ul className="space-y-2.5">
+              {[
+                { label: "Destinations", id: "destinations" },
+                { label: "Experiences", id: "experiences" },
+                { label: "Concierge", id: "concierge" },
+                { label: "Network", id: "network" },
+                { label: "Technology", id: "technology" },
+              ].map((link) => (
+                <li key={link.id}>
+                  <button
+                    onClick={() => scrollTo(link.id)}
+                    className="font-['Inter'] text-[13px] text-[#f3f0ea] hover:text-[#969188] transition-colors"
+                  >
+                    {link.label}
+                  </button>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Legal */}
+          <div>
+            <h4 className="font-['Inter'] text-[11px] uppercase tracking-[0.1em] text-[#f3f0ea] mb-4">
+              Legal
+            </h4>
+            <ul className="space-y-2.5">
+              <li>
+                <span className="font-['Inter'] text-[13px] text-[#f3f0ea] hover:text-[#969188] transition-colors cursor-pointer">
+                  Privacy Policy
+                </span>
+              </li>
+              <li>
+                <span className="font-['Inter'] text-[13px] text-[#f3f0ea] hover:text-[#969188] transition-colors cursor-pointer">
+                  Terms of Service
+                </span>
+              </li>
+            </ul>
+          </div>
+
+          {/* Corporate Info */}
+          <div>
+            <h4 className="font-['Inter'] text-[11px] uppercase tracking-[0.1em] text-[#f3f0ea] mb-4">
+              Corporate
+            </h4>
+            <div className="space-y-2 font-['Inter'] text-[12px] text-[#969188] leading-[1.8]">
+              <p>TRIPANYI TRAVEL & EXPERIENCE LLC</p>
+              <p>Registered in Texas, United States</p>
+              <p className="mt-3 text-[#f3f0ea] opacity-60">
+                Full corporate compliance data available upon request.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Divider */}
+        <div className="border-t border-[#3a3a38] mt-10 pt-6">
+          <p className="font-['Inter'] text-[12px] text-[#969188] text-center">
+            TRIPANYI TRAVEL & EXPERIENCE LLC · All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+}
