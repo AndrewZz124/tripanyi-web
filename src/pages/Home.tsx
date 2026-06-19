@@ -6,6 +6,7 @@ import SignatureExperiences from "@/sections/SignatureExperiences";
 import EliteConcierge from "@/sections/EliteConcierge";
 import GlobalNetwork from "@/sections/GlobalNetwork";
 import TechnologyRoadmap from "@/sections/TechnologyRoadmap";
+import AboutUs from "@/sections/AboutUs";
 import Newsletter from "@/sections/Newsletter";
 import Footer from "@/sections/Footer";
 import { useLenis } from "@/hooks/useLenis";
@@ -23,6 +24,7 @@ export default function Home() {
       <EliteConcierge />
       <GlobalNetwork />
       <TechnologyRoadmap />
+      <AboutUs />
       <Newsletter />
       <Footer />
     </div>
