@@ -4,6 +4,10 @@ export default function Footer() {
     if (el) el.scrollIntoView({ behavior: "smooth" });
   };
 
+  const handleEmail = () => {
+    window.location.href = "mailto:anyitravel@tripanyi.com";
+  };
+
   return (
     <footer className="bg-[#242422] pt-20 pb-10 px-6 lg:px-8">
       <div className="max-w-[1200px] mx-auto">
@@ -77,12 +81,12 @@ export default function Footer() {
                 <br />
                 Houston, TX 77057
               </p>
-              
-                href="mailto:anyitravel@tripanyi.com"
-                className="block mt-2 text-[#f3f0ea] hover:text-[#969188] transition-colors"
+              <button
+                onClick={handleEmail}
+                className="block mt-2 text-[#f3f0ea] hover:text-[#969188] transition-colors text-left"
               >
                 anyitravel@tripanyi.com
-              </a>
+              </button>
               <p className="mt-3 opacity-60">
                 Full corporate compliance data available upon request.
               </p>
