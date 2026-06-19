@@ -51,12 +51,12 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2.5">
               <li>
-                <span className="font-['Inter'] text-[13px] text-[#f3f0ea] hover:text-[#969188] transition-colors cursor-pointer">
+                <span className="font-['Inter'] text-[13px] text-[#f3f0ea] cursor-pointer">
                   Privacy Policy
                 </span>
               </li>
               <li>
-                <span className="font-['Inter'] text-[13px] text-[#f3f0ea] hover:text-[#969188] transition-colors cursor-pointer">
+                <span className="font-['Inter'] text-[13px] text-[#f3f0ea] cursor-pointer">
                   Terms of Service
                 </span>
               </li>
@@ -67,13 +67,14 @@ export default function Footer() {
             <h4 className="font-['Inter'] text-[12px] uppercase tracking-[0.1em] text-[#f3f0ea] mb-4">
               Corporate
             </h4>
-            <div className="font-['Inter'] text-[12px] text-[#969188] leading-[1.8] space-y-1">
+            <div className="font-['Inter'] text-[12px] text-[#969188] leading-[1.8]">
               <p className="text-[#f3f0ea] font-medium">
-                TRIPANYI TRAVEL & EXPERIENCE LLC
+                TRIPANYI TRAVEL &amp; EXPERIENCE LLC
               </p>
               <p>Registered in Texas, United States</p>
               <p className="mt-3">
-                2323 South Voss Road, Suite 125M<br />
+                2323 South Voss Road, Suite 125M
+                <br />
                 Houston, TX 77057
               </p>
               
@@ -92,7 +93,7 @@ export default function Footer() {
 
         <div className="border-t border-[#3a3a38] mt-10 pt-6">
           <p className="font-['Inter'] text-[12px] text-[#969188] text-center">
-            TRIPANYI TRAVEL & EXPERIENCE LLC · All Rights Reserved
+            TRIPANYI TRAVEL &amp; EXPERIENCE LLC · All Rights Reserved
           </p>
         </div>
       </div>
