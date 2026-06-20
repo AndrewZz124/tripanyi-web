@@ -73,7 +73,7 @@ export default function Footer() {
             </h4>
             <div className="font-['Inter'] text-[12px] text-[#969188] leading-[1.8]">
               <p className="text-[#f3f0ea] font-medium">
-                TRIPANYI TRAVEL &amp; EXPERIENCE LLC
+                ANYI TRAVEL &amp; EXPERIENCE LLC
               </p>
               <p>Registered in Texas, United States</p>
               <p className="mt-3">
@@ -97,7 +97,7 @@ export default function Footer() {
 
         <div className="border-t border-[#3a3a38] mt-10 pt-6">
           <p className="font-['Inter'] text-[12px] text-[#969188] text-center">
-            TRIPANYI TRAVEL &amp; EXPERIENCE LLC · All Rights Reserved
+            ANYI TRAVEL &amp; EXPERIENCE LLC · All Rights Reserved
           </p>
         </div>
       </div>
