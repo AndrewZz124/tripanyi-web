@@ -1,0 +1,26 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- White background -->
+  <rect width="512" height="512" fill="#f5f2ec"/>
+  <!-- Outer frame -->
+  <rect x="28" y="28" width="456" height="456" rx="2" fill="none" stroke="#b8a882" stroke-width="8"/>
+  <!-- Inner frame -->
+  <rect x="44" y="44" width="424" height="424" rx="2" fill="none" stroke="#b8a882" stroke-width="3"/>
+  <!-- Corner TL -->
+  <line x1="28" y1="90" x2="72" y2="90" stroke="#b8a882" stroke-width="6"/>
+  <line x1="72" y1="28" x2="72" y2="72" stroke="#b8a882" stroke-width="6"/>
+  <!-- Corner TR -->
+  <line x1="440" y1="90" x2="484" y2="90" stroke="#b8a882" stroke-width="6"/>
+  <line x1="440" y1="28" x2="440" y2="72" stroke="#b8a882" stroke-width="6"/>
+  <!-- Corner BL -->
+  <line x1="28" y1="422" x2="72" y2="422" stroke="#b8a882" stroke-width="6"/>
+  <line x1="72" y1="440" x2="72" y2="484" stroke="#b8a882" stroke-width="6"/>
+  <!-- Corner BR -->
+  <line x1="440" y1="422" x2="484" y2="422" stroke="#b8a882" stroke-width="6"/>
+  <line x1="440" y1="440" x2="440" y2="484" stroke="#b8a882" stroke-width="6"/>
+  <!-- ANYI wordmark -->
+  <text x="256" y="300" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="148" letter-spacing="14" fill="#1a1a18">ANYI</text>
+  <!-- Divider -->
+  <line x1="80" y1="320" x2="432" y2="320" stroke="#b8a882" stroke-width="3"/>
+  <!-- Tagline -->
+  <text x="256" y="370" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" letter-spacing="8" fill="#9a9590">TRAVEL &amp; EXPERIENCE</text>
+</svg>
